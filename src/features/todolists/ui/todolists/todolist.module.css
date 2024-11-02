@@ -1,0 +1,53 @@
+/* Контейнер для таблицы */
+.todolistsContainer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #2c3e50; /* Темный фон */
+    color: #ecf0f1; /* Белый текст */
+}
+
+/* Стили для таблицы */
+.todolistsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #34495e; /* Темный фон для таблицы */
+    color: #ecf0f1; /* Белый текст */
+}
+
+.todolistsTable th,
+.todolistsTable td {
+    padding: 10px;
+    border: 1px solid #444;
+    text-align: left;
+}
+
+.todolistsTable th {
+    background-color: #2c3e50; /* Темный фон для заголовков */
+    font-weight: bold;
+}
+
+.todolistsTable tr:nth-child(even) {
+    background-color: #34495e; /* Темный фон для четных строк */
+}
+
+.todolistsTable tr:hover {
+    background-color: #444; /* Темный фон при наведении */
+}
+
+/* Стили для кнопки удаления */
+.deleteButton {
+    background-color: #e74c3c; /* Красный цвет для кнопки */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.deleteButton:hover {
+    background-color: #c0392b; /* Темнее красный при наведении */
+}
